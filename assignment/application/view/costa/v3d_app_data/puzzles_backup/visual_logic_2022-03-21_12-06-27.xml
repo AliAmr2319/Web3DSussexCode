@@ -1,0 +1,63 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="false" scrollx="680" scrolly="339" scale="0.9"></tab>
+  <tab name="main" type="MainTab" active="true" scrollx="680" scrolly="339" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="7(%,r.Em5`~rh0AJQ3uN" x="-750" y="-350">
+      <field name="EVENT">click</field>
+      <field name="PARENT">TRUE</field>
+      <value name="ID">
+        <shadow type="text" id="Us8rkX(?awGDRWtf8BMo">
+          <field name="TEXT">rotatecokepls</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="autoRotateCamera" id="Niz0@4L!_5XZy_S=3UbQ">
+          <field name="ON_OFF">ON</field>
+          <value name="SPEED">
+            <shadow type="math_number" id="A4SW-[!I_qC(C9p@L1O6">
+              <field name="NUM">-8</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="tYsSbds90)e~ecJ4l$2J" x="-750" y="-230">
+      <field name="EVENT">click</field>
+      <field name="PARENT">TRUE</field>
+      <value name="ID">
+        <shadow type="text" id="yM_?oRpbOzLX0a1}0G6B">
+          <field name="TEXT">rotatecostapls</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="autoRotateCamera" id="0fD;JS|RptG{+Yg71{{u">
+          <field name="ON_OFF">ON</field>
+          <value name="SPEED">
+            <shadow type="math_number" id="RGv3JKb0xd~X8qQ#sWh7">
+              <field name="NUM">-8</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="MyJ0fYVAo*jPXzEPtzZ6" x="-750" y="-110">
+      <field name="EVENT">click</field>
+      <field name="PARENT">TRUE</field>
+      <value name="ID">
+        <shadow type="text" id="NE^$-O^=T@OM[=.?tKaY">
+          <field name="TEXT">rotatepepperpls</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="autoRotateCamera" id="gxbb*9ISa;.[,)B0CBmn">
+          <field name="ON_OFF">ON</field>
+          <value name="SPEED">
+            <shadow type="math_number" id="!_|hOA[gZA/q`:XDFgI|">
+              <field name="NUM">-8</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <editorsettings viewport-x="903.5999999999999" viewport-y="28" viewport-w="614.4" viewport-h="377" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>

@@ -1,0 +1,45 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="false" scrollx="680" scrolly="339" scale="0.9"></tab>
+  <tab name="main" type="MainTab" active="true" scrollx="764" scrolly="381.3999938964844" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="*;serr80:Lle.Vs|:tI6" x="-810" y="-370">
+      <field name="EVENT">click</field>
+      <field name="PARENT">TRUE</field>
+      <value name="ID">
+        <shadow type="text" id="*=G[wo0SJ+upX+s^[.?O">
+          <field name="TEXT">wirepper</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="setMaterialWireframe" id="@bf2@%g*7{j^74s9]JH.">
+          <field name="DO_WHAT">ENABLE</field>
+          <value name="MATERIAL">
+            <shadow type="materialList" id="o9dX)o|tdBmj:AP~O]X7">
+              <field name="FIELDNAME">Aluminium.002</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="setMaterialWireframe" id="pw,VVIq#9MT$COQU[%P@">
+              <field name="DO_WHAT">ENABLE</field>
+              <value name="MATERIAL">
+                <shadow type="materialList" id="%YQzH+sf0~4]RH`WQQ-5">
+                  <field name="FIELDNAME">Label.002</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="setMaterialWireframe" id="bhVGqaW/f.ehF|k|SOTg">
+                  <field name="DO_WHAT">ENABLE</field>
+                  <value name="MATERIAL">
+                    <shadow type="materialList" id="sqJVqa%5O~4L)_IxK!i7">
+                      <field name="FIELDNAME">Material.005</field>
+                    </shadow>
+                  </value>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <editorsettings viewport-x="903.5999999999999" viewport-y="28" viewport-w="614.4" viewport-h="377" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>

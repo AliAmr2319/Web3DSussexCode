@@ -1,0 +1,8 @@
+.pages .page{
+
+  display: none;
+}
+
+.pages .page.is-active{
+  display: block;
+}

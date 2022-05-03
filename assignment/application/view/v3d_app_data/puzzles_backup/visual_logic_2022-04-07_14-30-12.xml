@@ -1,0 +1,645 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="false" scrollx="680" scrolly="338.99999999999983" scale="0.9"></tab>
+  <tab name="main" type="MainTab" active="true" scrollx="641.4606771715007" scrolly="-454.005311055309" scale="0.6236784538234111">
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="}ah?sL8.0@hF!J`{aT?D" x="-890" y="-530">
+      <field name="EVENT">click</field>
+      <field name="PARENT">TRUE</field>
+      <value name="ID">
+        <shadow type="text" id="IZoyJ-s.M]YGv5UMq(Ck">
+          <field name="TEXT">wirecoke</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="setMaterialWireframe" id="!c~G0[HHdV`Ud]VlZYjz">
+          <field name="DO_WHAT">ENABLE</field>
+          <value name="MATERIAL">
+            <shadow type="materialList" id="PU9;MxAt@X$j!X2bxiEI">
+              <field name="FIELDNAME">Material.001</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="setMaterialWireframe" id="-/*oI}MUYy8)i`W9%zcm">
+              <field name="DO_WHAT">ENABLE</field>
+              <value name="MATERIAL">
+                <shadow type="materialList" id="5*BqC^];uX?.]4vTnM,t">
+                  <field name="FIELDNAME">Material.002</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="setMaterialWireframe" id="1.9aN{`LB:JA*8rmC0X9">
+                  <field name="DO_WHAT">ENABLE</field>
+                  <value name="MATERIAL">
+                    <shadow type="materialList" id="*:ZM_s0J#y$llS!r^(_I">
+                      <field name="FIELDNAME">Material.012</field>
+                    </shadow>
+                  </value>
+                  <next>
+                    <block type="setMaterialWireframe" id="JBF)BO}]DK6:Rwt(UAm2">
+                      <field name="DO_WHAT">ENABLE</field>
+                      <value name="MATERIAL">
+                        <shadow type="materialList" id="Ql38,5]_=3ao-*:dsx6x">
+                          <field name="FIELDNAME">Material.013</field>
+                        </shadow>
+                      </value>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="[@m0=68qT~lR*P9|iU^-" x="-10" y="-470">
+      <field name="EVENT">click</field>
+      <field name="PARENT">TRUE</field>
+      <value name="ID">
+        <shadow type="text" id="0PycmU3,8S%j{Rfh8{]W">
+          <field name="TEXT">cokemusic</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="playSound" id="fT[Hy!`E/3y3m=mZW=x)">
+          <field name="LOOP">TRUE</field>
+          <value name="VALUE">
+            <block type="loadSoundAdv" id="-+*VOg(FS+aNWe)5i$TV">
+              <field name="TYPE">MUSIC</field>
+              <value name="URL">
+                <shadow type="text" id="Y~UuaQ02*b3:=@8W@J3.">
+                  <field name="TEXT">media/cokemusic.mp3</field>
+                </shadow>
+              </value>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="Vm#mbA[|RU*xO0XF}RJh" x="-890" y="-330">
+      <field name="EVENT">click</field>
+      <field name="PARENT">TRUE</field>
+      <value name="ID">
+        <shadow type="text" id="B8G^C924eyZTm`0i+h/N">
+          <field name="TEXT">polycoke</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="setMaterialWireframe" id="H(4knsX@[|ps|S%3/m!7">
+          <field name="DO_WHAT">DISABLE</field>
+          <value name="MATERIAL">
+            <shadow type="materialList" id=")2=%S69FHQ{1uqJ;1KFQ">
+              <field name="FIELDNAME">Material.001</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="setMaterialWireframe" id="=V%t,T`O0As:MH$QW64Z">
+              <field name="DO_WHAT">DISABLE</field>
+              <value name="MATERIAL">
+                <shadow type="materialList" id="1Ij[U*/#GxLK;wJDu|`m">
+                  <field name="FIELDNAME">Material.002</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="setMaterialWireframe" id="7,Z~OU63AmoL{KH|1oPO">
+                  <field name="DO_WHAT">DISABLE</field>
+                  <value name="MATERIAL">
+                    <shadow type="materialList" id="n|V]a3Vp@jn]i69-.U`B">
+                      <field name="FIELDNAME">Material.012</field>
+                    </shadow>
+                  </value>
+                  <next>
+                    <block type="setMaterialWireframe" id="]dAW:W%P()=L6oTYT)JU">
+                      <field name="DO_WHAT">DISABLE</field>
+                      <value name="MATERIAL">
+                        <shadow type="materialList" id="Z4$g7p5HSM9CZB:xW:[Y">
+                          <field name="FIELDNAME">Material.013</field>
+                        </shadow>
+                      </value>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="e+N+IO,D@f^[9L9XgQ`{" x="-10" y="-310">
+      <field name="EVENT">click</field>
+      <field name="PARENT">TRUE</field>
+      <value name="ID">
+        <shadow type="text" id="kfa?]+*05-7Yny(C@`5I">
+          <field name="TEXT">cokemute</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="stopSound" id="W[n(B@by](7Y5Lb33*u-">
+          <value name="VALUE">
+            <block type="loadSoundAdv" id="VnyG*+d}1|jHPhVp7d6^">
+              <field name="TYPE">MUSIC</field>
+              <value name="URL">
+                <shadow type="text" id="VB=dp-Jj*/{mBGMH;tlw">
+                  <field name="TEXT">media/cokemusic.mp3</field>
+                </shadow>
+              </value>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="cO7G1woh2wN#mbTFIOLB" x="-970" y="190">
+      <field name="EVENT">click</field>
+      <field name="PARENT">TRUE</field>
+      <value name="ID">
+        <shadow type="text" id=":d!](-4OT|EI{[$?{_=T">
+          <field name="TEXT">cokeleft</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="tweenCameraExt" id=":sHE%wD#,:ZNbD@VzkYk">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
+          <field name="MOVEMENT_TYPE">LINEAR</field>
+          <value name="POSITION">
+            <block type="objectList" id="F8om*4$xD6Dk2gCG@r{_">
+              <field name="FIELDNAME">Cube Left</field>
+            </block>
+          </value>
+          <value name="LOOKAT">
+            <block type="objectList" id="bFEtfkt)r.@!;=5C,1nh">
+              <field name="FIELDNAME">Cylinder</field>
+            </block>
+          </value>
+          <value name="DURATION">
+            <shadow type="math_number" id="q9LQj#pmm58Iu:^h#AAP">
+              <field name="NUM">3</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="%gZvb70j|b$?iH[mkoqZ" x="-970" y="330">
+      <field name="EVENT">click</field>
+      <field name="PARENT">TRUE</field>
+      <value name="ID">
+        <shadow type="text" id="~J2ZjWd158Q4fEbN9z1s">
+          <field name="TEXT">cokeback</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="tweenCameraExt" id="T8HqIJ,,@eTUG9G]RmjK">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
+          <field name="MOVEMENT_TYPE">LINEAR</field>
+          <value name="POSITION">
+            <block type="objectList" id="gFmV^Ei25hR/MF.ELjEK">
+              <field name="FIELDNAME">Cube Back</field>
+            </block>
+          </value>
+          <value name="LOOKAT">
+            <block type="objectList" id="f1:6ze;9c1b2.ERkV^dM">
+              <field name="FIELDNAME">Cylinder</field>
+            </block>
+          </value>
+          <value name="DURATION">
+            <shadow type="math_number" id="9j6JaByC.13.H,#_*GCM">
+              <field name="NUM">3</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="4n)M0^[/rn,UIEgu%{(o" x="-970" y="470">
+      <field name="EVENT">click</field>
+      <field name="PARENT">TRUE</field>
+      <value name="ID">
+        <shadow type="text" id="mQqM%r=z1(`3:1o8l$sr">
+          <field name="TEXT">cokeright</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="tweenCameraExt" id="t0cxCVW|y;$Q![|OOhCP">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
+          <field name="MOVEMENT_TYPE">LINEAR</field>
+          <value name="POSITION">
+            <block type="objectList" id="CaS%U{6X$0ew^4c2k^7s">
+              <field name="FIELDNAME">Cube Right</field>
+            </block>
+          </value>
+          <value name="LOOKAT">
+            <block type="objectList" id="Io@hJ;s^-x=#IX_)g`5k">
+              <field name="FIELDNAME">Cylinder</field>
+            </block>
+          </value>
+          <value name="DURATION">
+            <shadow type="math_number" id="7$SVMHlLim=S+3Dx22{R">
+              <field name="NUM">3</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="H(H)$QoE5G-+!,{G8!1~" x="430" y="470">
+      <field name="EVENT">click</field>
+      <field name="PARENT">TRUE</field>
+      <value name="ID">
+        <shadow type="text" id="y;@4q5.*O)NRQGd]i3qA">
+          <field name="TEXT">suncoke</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="show" id="xGy7bgVK,xvAb()=#HIk">
+          <value name="VALUE">
+            <shadow type="objectList" id="I.9po2fHu]9zfFe1Re`$">
+              <field name="FIELDNAME">Sun</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="show" id="EK2E@z0;|0{zHs^P5*2-">
+              <value name="VALUE">
+                <shadow type="objectList" id="|A4(vk%)mA,.mmEMoUuO">
+                  <field name="FIELDNAME">Sun.001</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="hide" id="E/Nj`)bz!9BQhoSnFM;_">
+                  <value name="VALUE">
+                    <shadow type="objectList" id="4[w_SagkHm?B}~|+ae4R">
+                      <field name="FIELDNAME">Area</field>
+                    </shadow>
+                  </value>
+                  <next>
+                    <block type="hide" id=":NsN$z=Pdb;+jkn~W1b4">
+                      <value name="VALUE">
+                        <shadow type="objectList" id="Z2E`-q(=.KuVy0P!LT)7">
+                          <field name="FIELDNAME">Area.001</field>
+                        </shadow>
+                      </value>
+                      <next>
+                        <block type="hide" id="cp3X1yT?Tt,N8{|Y-Y]b">
+                          <value name="VALUE">
+                            <shadow type="objectList" id=")0wgNPfRIy2YO]vJ5j2a">
+                              <field name="FIELDNAME">Spot.004</field>
+                            </shadow>
+                          </value>
+                          <next>
+                            <block type="hide" id="FQT:ZcAWlL)P=,eRj]?B">
+                              <value name="VALUE">
+                                <shadow type="objectList" id="9DX`b_Rh6*?5E+bm({^+">
+                                  <field name="FIELDNAME">Spot.005</field>
+                                </shadow>
+                              </value>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="ig68D!y4/G,,-MKEmosx" x="950" y="470">
+      <field name="EVENT">click</field>
+      <field name="PARENT">TRUE</field>
+      <value name="ID">
+        <shadow type="text" id="57zd^2fYg9#5vjQW@8V|">
+          <field name="TEXT">areacoke</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="show" id="DN{_qu$JgV3cFfgna7@z">
+          <value name="VALUE">
+            <shadow type="objectList" id="6LY|!lHX0*`n5XPKCvPd">
+              <field name="FIELDNAME">Area</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="show" id=":|Py}yN)8.=DqXoCdjxs">
+              <value name="VALUE">
+                <shadow type="objectList" id=":6lo`U!F87X9{1.CN.24">
+                  <field name="FIELDNAME">Area</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="hide" id="|uX-jNIIF+Z@xH^uB*}d">
+                  <value name="VALUE">
+                    <shadow type="objectList" id="g7k.$`K1X}8EO)BkB9No">
+                      <field name="FIELDNAME">Sun</field>
+                    </shadow>
+                  </value>
+                  <next>
+                    <block type="hide" id=":a{qdz#E:lv!0y$!X7_w">
+                      <value name="VALUE">
+                        <shadow type="objectList" id="Iq;%o)8V7PA.YG?BT]ph">
+                          <field name="FIELDNAME">Sun.001</field>
+                        </shadow>
+                      </value>
+                      <next>
+                        <block type="hide" id="|*iZh@q}Kbhjbx$NfhNa">
+                          <value name="VALUE">
+                            <shadow type="objectList" id="b;dTp~LGTR$f?avb26mw">
+                              <field name="FIELDNAME">Spot.004</field>
+                            </shadow>
+                          </value>
+                          <next>
+                            <block type="hide" id=",O_|cl8mWOjisI)T|nNw">
+                              <value name="VALUE">
+                                <shadow type="objectList" id="i/!6?L`XX6S;M^+iVcuq">
+                                  <field name="FIELDNAME">Spot.005</field>
+                                </shadow>
+                              </value>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="ErUC%2JljdM~O3^gan19" x="-970" y="610">
+      <field name="EVENT">click</field>
+      <field name="PARENT">TRUE</field>
+      <value name="ID">
+        <shadow type="text" id="cKz[2-7V7M1hPHS9aZMD">
+          <field name="TEXT">cokedbottom</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="tweenCameraExt" id="h{sW^{DJ_RNHzKpgoBr_">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
+          <field name="MOVEMENT_TYPE">LINEAR</field>
+          <value name="POSITION">
+            <block type="objectList" id="-Xy0A5UV:TG@I]_Z?vBD">
+              <field name="FIELDNAME">Cube Bottom</field>
+            </block>
+          </value>
+          <value name="LOOKAT">
+            <block type="objectList" id="zLht7dnsql#5slS5eVt1">
+              <field name="FIELDNAME">Cylinder</field>
+            </block>
+          </value>
+          <value name="DURATION">
+            <shadow type="math_number" id="VP15QN!PyH9icRwN::PQ">
+              <field name="NUM">3</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="9k5]cdFx/Hs(#Q5VbK4U" x="-970" y="730">
+      <field name="EVENT">click</field>
+      <field name="PARENT">TRUE</field>
+      <value name="ID">
+        <shadow type="text" id="GTDEl}a|!)Zw|[MLuz)J">
+          <field name="TEXT">cokedefault</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="tweenCameraExt" id="dq-W//~fF22O1+!fXx|b">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
+          <field name="MOVEMENT_TYPE">LINEAR</field>
+          <value name="POSITION">
+            <block type="objectList" id="ww-.?^)f#`:#6Jy?E=gQ">
+              <field name="FIELDNAME">Cube Default</field>
+            </block>
+          </value>
+          <value name="LOOKAT">
+            <block type="objectList" id=".N_:``!OOsD|$%`Aq`2q">
+              <field name="FIELDNAME">Cylinder</field>
+            </block>
+          </value>
+          <value name="DURATION">
+            <shadow type="math_number" id="5B:G![LI_TlR+hBT[_rw">
+              <field name="NUM">3</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="bq9Kp?LGy;):8*)s!T)u" x="410" y="730">
+      <field name="EVENT">click</field>
+      <field name="PARENT">TRUE</field>
+      <value name="ID">
+        <shadow type="text" id="noRtrJX1#-43T8G_d?c%">
+          <field name="TEXT">spotcoke</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="show" id="eZrf0~^7(T[4Na4}[ehX">
+          <value name="VALUE">
+            <shadow type="objectList" id="E%D5N1BR7(zz1/Ty@~2y">
+              <field name="FIELDNAME">Spot.004</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="show" id="/D.|e`7fQGX`@1O4}Np*">
+              <value name="VALUE">
+                <shadow type="objectList" id="YZ)|MoDp($TQxFl05bH^">
+                  <field name="FIELDNAME">Spot.005</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="hide" id="ipln#M*Z_WxAmS,R1(1!">
+                  <value name="VALUE">
+                    <shadow type="objectList" id="Jn|(?z|)67flGQZE=Fz]">
+                      <field name="FIELDNAME">Sun</field>
+                    </shadow>
+                  </value>
+                  <next>
+                    <block type="hide" id="p????0mw33qIpBg(pxn}">
+                      <value name="VALUE">
+                        <shadow type="objectList" id="|Q9EiS0|{n/XFt=kT_HN">
+                          <field name="FIELDNAME">Sun.001</field>
+                        </shadow>
+                      </value>
+                      <next>
+                        <block type="hide" id="G,QG7^$c9+E==w(rClQ.">
+                          <value name="VALUE">
+                            <shadow type="objectList" id="V*BCxL(Ps$1.i:?ck2o2">
+                              <field name="FIELDNAME">Area</field>
+                            </shadow>
+                          </value>
+                          <next>
+                            <block type="hide" id="KONfuddJk;?WumnV$xa:">
+                              <value name="VALUE">
+                                <shadow type="objectList" id="H(Fz@#;ruBK%sq}{?bd5">
+                                  <field name="FIELDNAME">Area</field>
+                                </shadow>
+                              </value>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="$%|y:1%SBe.-C#AC~tdH" x="950" y="730">
+      <field name="EVENT">click</field>
+      <field name="PARENT">TRUE</field>
+      <value name="ID">
+        <shadow type="text" id="bxWGfeo:XrDthVX#C}zt">
+          <field name="TEXT">defaultcoke</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="hide" id="L1%y[1T];mCRC,qgEtZF">
+          <value name="VALUE">
+            <shadow type="objectList" id="t=!V9A2$QM7d~=;PXdl%">
+              <field name="FIELDNAME">Sun</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="hide" id="b0Q9o4GGQ%hVjQ6/Us@U">
+              <value name="VALUE">
+                <shadow type="objectList" id="vu0TWkS$}gl$An/@TB?p">
+                  <field name="FIELDNAME">Sun.001</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="hide" id="x6hO;Cp[jHE(KLj;c$y~">
+                  <value name="VALUE">
+                    <shadow type="objectList" id=".eq1y-}!$_Yu{v+_59jw">
+                      <field name="FIELDNAME">Area</field>
+                    </shadow>
+                  </value>
+                  <next>
+                    <block type="hide" id="0zLkX-r+a/DH,(k{4Y*e">
+                      <value name="VALUE">
+                        <shadow type="objectList" id="^3YI@V}5k),v.wi+4Sm8">
+                          <field name="FIELDNAME">Area.001</field>
+                        </shadow>
+                      </value>
+                      <next>
+                        <block type="hide" id="hp~~V%}~Ia-5~fyc2l]Q">
+                          <value name="VALUE">
+                            <shadow type="objectList" id="V4)ixba=zM}I{8-4?#vN">
+                              <field name="FIELDNAME">Spot.004</field>
+                            </shadow>
+                          </value>
+                          <next>
+                            <block type="hide" id="N{257f~fSbE[)U@`ru)=">
+                              <value name="VALUE">
+                                <shadow type="objectList" id=")mslLUyOJ1!nXNkKVcv3">
+                                  <field name="FIELDNAME">Spot.005</field>
+                                </shadow>
+                              </value>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="W$vFx[VMR]/|K0Mxjhq+" x="-970" y="870">
+      <field name="EVENT">click</field>
+      <field name="PARENT">TRUE</field>
+      <value name="ID">
+        <shadow type="text" id="I5-Yfi~VO:97FZNa:uG@">
+          <field name="TEXT">coketop</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="tweenCameraExt" id="ZSI%H=8rfmhW0nYD8I8;">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
+          <field name="MOVEMENT_TYPE">LINEAR</field>
+          <value name="POSITION">
+            <block type="objectList" id="/]g56FEHH+uu0i@qw@Bv">
+              <field name="FIELDNAME">Cube Top</field>
+            </block>
+          </value>
+          <value name="LOOKAT">
+            <block type="objectList" id="t;Ih4Fae/I{/oov^H+=D">
+              <field name="FIELDNAME">Cap</field>
+            </block>
+          </value>
+          <value name="DURATION">
+            <shadow type="math_number" id="^(LGaltD2Xc7+kd*jQ1J">
+              <field name="NUM">3</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="9J(6-g9usar+K:yzN#z[" x="-910" y="1150">
+      <field name="EVENT">click</field>
+      <field name="PARENT">TRUE</field>
+      <value name="ID">
+        <shadow type="text" id="808D^3@k#8KtAb[|6)xC">
+          <field name="TEXT">rotatecokex</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="playAnimationAdv" id="KqE#I;;Vs9uy[I/M}[zJ">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="false"></mutation>
+          <field name="REVERSED">FALSE</field>
+          <field name="LOOP">AUTO</field>
+          <value name="VALUE">
+            <shadow type="animationList" id="bJF)QWVl-#/i;w`7Qze?">
+              <field name="FIELDNAME">Cylinder</field>
+            </shadow>
+          </value>
+          <value name="FROM">
+            <block type="math_number" id="WsZz5JNMM|3~(S*CH]Jj">
+              <field name="NUM">0</field>
+            </block>
+          </value>
+          <value name="TO">
+            <block type="math_number" id="T)m8)!H#x8G?B*dT1q)J">
+              <field name="NUM">80</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="Y*1D=a)hz:BJkGQ3(t=h" x="-910" y="1310">
+      <field name="EVENT">click</field>
+      <field name="PARENT">TRUE</field>
+      <value name="ID">
+        <shadow type="text" id="eeDVd/)o^z9@pJ~;$tT3">
+          <field name="TEXT">rotatecokeflip</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="playAnimationAdv" id="hJbo2y7Du6s8@07JH#@}">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="false"></mutation>
+          <field name="REVERSED">FALSE</field>
+          <field name="LOOP">AUTO</field>
+          <value name="VALUE">
+            <shadow type="animationList" id="{-`8W!JhFeCHg3-N)hEV">
+              <field name="FIELDNAME">Cylinder</field>
+            </shadow>
+          </value>
+          <value name="FROM">
+            <block type="math_number" id="$eAE2DL7MM=~-s=OPn;}">
+              <field name="NUM">100</field>
+            </block>
+          </value>
+          <value name="TO">
+            <block type="math_number" id="m7xUmONMHJ#i4=E_BgP,">
+              <field name="NUM">180</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <editorsettings viewport-x="903.5999999999999" viewport-y="28" viewport-w="614.4" viewport-h="377" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>

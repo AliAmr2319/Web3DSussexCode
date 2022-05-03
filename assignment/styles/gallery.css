@@ -1,0 +1,19 @@
+#gallery {
+
+}
+
+#gallery_cell {
+	border: 1px solid red;
+	width: 10%;
+	height: 10%;
+	margin: 3px;
+	float:right;
+}
+
+#image_thumbnail {
+	width: 100%;
+}
+
+table {
+   border-spacing: 0px;
+}
